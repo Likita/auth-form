@@ -114,13 +114,6 @@ export async function verifyPassword(password: string, hashedPassword: string): 
 
 export async function hashPassword(password: string): Promise<string> {
   try {
-    if (typeof window === 'undefined' || !crypto.subtle) {
-      // Running in Node.js or test environment, use Node.js crypto
-      const { createHash } = await import('node:crypto');
-      return createHash('sha256').update(password).digest('hex');
-    }
-
-    // Browser environment, use Web Crypto API
     const encoder = new TextEncoder();
     const data = encoder.encode(password);
     const hashBuffer = await crypto.subtle.digest('SHA-256', data);

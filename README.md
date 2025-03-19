@@ -37,6 +37,12 @@ This project implements a client-side storage solution to demonstrate user authe
 
 ## Getting Started
 
+### Requirements
+The project uses React Router v7.3.0 and React v19.0.0.
+It requires:
+
+- Node.js (v20 or higher)
+
 ### Installation
 
 Install the dependencies:
