@@ -1,0 +1,1 @@
+import{w as s}from"./with-props-Ec_yEytb.js";import{l as t,N as o,O as e}from"./chunk-GNGMS2XR-CoPZddH2.js";import{u as n}from"./auth-DJSf7Eou.js";import"./db-CDBC-hjf.js";const l=s(function(){const{isAuthenticated:r,isLoading:i}=n();return i?null:r?t.jsx("div",{children:t.jsx(e,{})}):t.jsx(o,{to:"/sign-in",replace:!0})});export{l as default};
