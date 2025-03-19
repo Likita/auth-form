@@ -1,0 +1,28 @@
+.sign-in-header {
+  margin-bottom: var(--spacing-2xl);
+  text-align: center;
+}
+
+.sign-in-subtitle {
+  font-size: var(--font-size-sm);
+  color: var(--gray-700);
+}
+
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.links-group {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--font-size-sm);
+  margin-top: var(--spacing-md);
+}
+
+@media (prefers-color-scheme: dark) {
+  .sign-in-subtitle {
+    color: var(--gray-400);
+  }
+}

@@ -1,0 +1,14 @@
+.message {
+  font-size: var(--font-size-xs);
+  margin-top: var(--spacing-xs);
+  margin-bottom: var(--spacing-xs);
+  text-align: left;
+}
+
+.success-message {
+  color: var(--success-color);
+}
+
+.error-message {
+  color: var(--error-color);
+}

@@ -1,0 +1,30 @@
+html,
+body {
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: 0;
+}
+
+.login-link {
+  color: var(--link-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-link:hover,
+.login-link:focus {
+  text-decoration: underline;
+}
+
+.title {
+  font-size: var(--font-size-2xl);
+  font-weight: 600;
+  color: var(--gray-900);
+  margin-bottom: var(--spacing-md);
+}
+
+@media (prefers-color-scheme: dark) {
+  .title {
+    color: var(--gray-100);
+  }
+}
