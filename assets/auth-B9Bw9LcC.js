@@ -1,0 +1,1 @@
+import{w as s}from"./__vite-browser-external-D9MZeEIw.js";import{j as t,N as o,O as e}from"./chunk-GNGMS2XR-Jtfxgobp.js";import{u as n}from"./auth-D93qDknB.js";import"./db-Bh1l67W4.js";const c=s(function(){const{isAuthenticated:r,isLoading:i}=n();return i?null:r?t.jsx("div",{children:t.jsx(e,{})}):t.jsx(o,{to:"/sign-in",replace:!0})});export{c as default};

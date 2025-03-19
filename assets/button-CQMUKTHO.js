@@ -1,0 +1,1 @@
+import{j as e}from"./chunk-GNGMS2XR-Jtfxgobp.js";function l({children:t,variant:o="primary",size:n="md",fullWidth:s=!1,className:u="",...r}){const a=["button",`button-${o}`,`button-${n}`,s?"button-full-width":"",u].filter(Boolean).join(" ");return e.jsx("button",{className:a,...r,children:t})}export{l as B};
