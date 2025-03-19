@@ -1,0 +1,1 @@
+.sign-up-header{margin-bottom:var(--spacing-2xl);text-align:center}.sign-up-subtitle{font-size:var(--font-size-sm);color:var(--gray-700)}.sign-up-form{display:flex;flex-direction:column;gap:var(--spacing-lg)}@media (prefers-color-scheme: dark){.sign-up-subtitle{color:var(--gray-400)}}
